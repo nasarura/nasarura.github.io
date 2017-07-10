@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>A Dog's Life - Grooming</title>
+	<meta charset="utf-8"/>
+	<style>
+	body {	height: 100%;
+			margin: 0;
+			padding: 0;
+			background-color: #EAEAEE;}
+
+	a,
+	a:active {	color: black;
+				text-decoration: none;}
+
+	#header {	position: relative;
+				width: 100%;
+				background-color: white;
+				height: 50px;
+				box-shadow: 0px 1px 5px #888888;}
+
+	#content {	padding-top: 50px;
+				height: 100%;
+				width: 100%;}
+
+	#footer {	background-color: white;
+				width: 100%;
+				line-height: 50px;}
+
+	#logo div {	display: inline;
+				float: left;
+				padding-left: 10px;
+				line-height: 50px;}
+
+	#menu {	display: inline;
+			line-height: 50px;}
+
+	#menu ul {	display: inline;
+				margin-left: -10px;}
+
+	#menu ul li {	display: inline;
+					margin-right: 30px;}
+
+	#book-now {	display: inline;
+					line-height: 50px;
+					margin-right: 10px;}
+
+	#form {	padding: 5px;}
+
+	#form-bg {	background-color: white;
+				margin: 0 auto;
+				width: 600px;
+				height: 100%;
+				box-shadow: 0px 1px 20px #888888;}
+
+	#form-holder {	width: 500px;
+					height: 100%;
+					margin: 0 auto;}
+
+	#form-title {	text-align: center;
+					margin: 0;
+					padding: 10px;}
+
+	#divider {	border-style: dotted;
+				border-top: 5px;
+				margin: 0 auto;
+				width: 90%;}
+
+	#book-now {	float:right;
+				padding-right:20px;
+				padding-left: 20px;}
+
+	#book-now:hover{	background-color: #050A98;
+					-webkit-transition: background-color 0.5s ease-out;
+					-moz-transition: background-color 0.5s ease-out;
+					-o-transition: background-color 0.5s ease-out;
+					transition: background-color 0.5s ease-out;}
+
+	#book-now:hover a{	color: white;
+						-webkit-transition: color 0.5s ease-out;
+						-moz-transition: color 0.5s ease-out;
+						-o-transition: color 0.5s ease-out;
+						transition: color 0.5s ease-out;}
+
+	#newForm {	padding: 20px;}
+
+	.asterisk {	color: red;
+				margin-right: 5px;}
+
+	.dropbtn {
+					background-color: #4CAF50;
+					color: white;
+					padding: 16px;
+					font-size: 16px;
+					border: none;
+					cursor: pointer;}
+
+	.dropdown {
+					position: relative;
+					display: inline-block;}
+
+	.dropdown-content {
+					display: none;
+					position: absolute;
+					background-color: #f9f9f9;
+					min-width: 160px;
+					box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+					z-index: 1;}
+
+	.dropdown-content a {
+					color: black;
+					padding: 12px 16px;
+					text-decoration: none;
+					display: block;}
+
+	.dropdown-content a:hover {
+					background-color: #f1f1f1}
+
+	.dropdown:hover .dropdown-content {
+					display: block;}
+
+	.dropdown:hover .dropbtn {
+					background-color: #3e8e41;}
+	table {
+				margin:auto;}
+
+	</style>
+
+</head>
+<body>
+<span class="banner_h">
+	<img src="banner.jpg" alt="Banner" height="150" width ="100%" />
+</span>
+ <div id="header">
+  <a href="home.html" id="logo">
+    <div>
+      <span style="float:left"><img src="logo.png"  height="40" width="40" alt="logo"></span> A Dog's Life
+    </div>
+  </a>
+  <div id="menu">
+    <ul>
+      <li><a href="about us.html">About Us</a></li>
+	  <li><a href="contact.html">Contact</a></li>
+      <div class="dropdown">
+			<button class="dropbtn">Services</button>
+				<div class="dropdown-content">
+					<a href="training.html">Training</a>
+					<a href="grooming.html">Grooming</a>
+					<a href="daycare.html">Day Care &amp Vacation Boarding</a>
+				</div>
+	  </div>
+      <li id="book-now">
+        <div id="book-now">
+          <a href="BookNow.html">Book Now</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div id="content">
+  <div style="background-color: #4CAF70; width: 95%; margin: 0 auto; height:100%;">
+    <br>
+    <br>
+    <br>
+	<table width="500" border="0" cellspacing="10" cellpadding="40">
+        <tr>
+            <td bgcolor="#FFFFFF"><table width="100%" border="0" cellpadding="5" cellspacing="0">
+                <tr>
+                    <td valign="top" bgcolor="#0BA330" class="services_ttl"><strong>Training</strong></td>
+                </tr>
+				<tr>
+					<table bgcolor="#d6cebd" border="2" width="778">
+								<tbody>
+									<tr>
+										<th>
+											<span>Class</span></th>
+										<th>
+											<span>Location</span></th>
+										<th>
+											<span>Date(s)</span></th>
+										<th>
+											<span>Duration</span></th>
+										<th>
+											<span>Cost</span></th>
+										<td>
+											<p>
+												<strong>Age Req&#39;d.</strong></p>
+										</td>
+										<td>
+											<span><strong>Vaccination req&#39;d.</strong></span></td>
+										<td>
+											<span><strong>Description</strong></span></td>
+									</tr>
+									<tr>
+										<td>
+											<p>
+												<span>Puppy Preschool</span></p>
+											<p>
+												<span>Puppy Kindergarten</span></p>
+										</td>
+										<td>
+											<span><font size="2">A Dog's Life Quarters</font></span></td>
+										<td>
+											<span>TBD</span></td>
+										<td>
+											<span>Ongoing</span></td>
+										<td>
+											<p>
+												$25 per day</p>
+										</td>
+										<td>
+											<span>ongoing</span></td>
+										<td>
+											<span>Must be current on all puppy vaccinations appropriate to age</span></td>
+										<td>
+											<span>Ongoing social skills -- we will be learning each day to play nice with others.&nbsp;Puppies will also learn to focus on Handler, Basic Commands (such as &quot;sit,&quot; &quot;down&quot;), &amp; will learn to come when called. We are also happy to help reinforce at-home potty training. &nbsp;</span></td>
+									</tr>
+									<tr>
+										<td>
+											<span>Basic Obedience</span></td>
+										<td>
+											<span><font size="2">A Dog's Life Quarters</font></span></td>
+										<td>
+											<p>
+												<span>Classes&nbsp;Ongoing </span></p>
+											<p>
+												<span>Mondays </span></p>
+											<p>
+												<span>6:30 PM</span></p>
+										</td>
+										<td>
+											<span>1 hr every wk for 6 wks</span></td>
+										<td>
+											<p>
+												$150 for 6 wks</p>
+											<p>
+												or</p>
+											<p>
+												$35 per Class</p>
+											<p>
+												&nbsp;</p>
+										</td>
+										<td>
+											<span>20 wks or older </span></td>
+										<td>
+											<span>RV/DHPP/6-mo. Bordetella&#65279;</span></td>
+										<td>
+											<span>Are you struggling with leash manners, impulse control, chewing and jumping up? Do you want your dog to learn the basics in a peer environment? <br />
+											For dogs 20 wks or older that missed out on Puppy Class but still need to learn socialization, recall, sit, and more. Housetraining, barking, chewing, digging, jumping, and other behaviors will be covered</span></td>
+									</tr>
+									<tr>
+										<td>
+											<span>Intermediate Obedience</span></td>
+										<td>
+											<span><font size="2">A Dog's Life Quarters</font></span></td>
+										<td>
+											<span>TBD</span></td>
+										<td>
+											<span>1&nbsp;hr twice each week, for&nbsp;6 wks</span></td>
+										<td>
+											<p>
+												$105</p>
+										</td>
+										<td>
+											<span>For dogs who have had basic obedience or equivalent skills.</span></td>
+										<td>
+											<span>RV/DHPP/6-mo. Bordetella&#65279;</span></td>
+										<td>
+											<span>This class is designed to hone and polish your dog&#39;s obedience through fun training exercises. You will improve your dog&#39;s sit, down, stay, heel, and come when called. Please come to the first class with your dog and be ready to work!</span></td>
+									</tr>
+									<tr>
+										<td>
+											<span>1 Hour Training Session</span></td>
+										<td>
+											<span><font size="2">A Dog's Life Quarters</font></span></td>
+										<td>
+											<span>Per Request</span></td>
+										<td>
+											<span>1 hr</span></td>
+										<td>
+											<span>$100</span></td>
+										<td>
+											<span>NA</span></td>
+										<td>
+											<span>RV/DHPP/6-mo. Bordetella</span></td>
+										<td>
+											<span>Customized Plan for you and your pup</span></td>
+									</tr>
+									<tr>
+										<td>
+											<span>1 Hour Training Session</span></td>
+										<td>
+											<span>In Home</span></td>
+										<td>
+											<span>Per Request</span></td>
+										<td>
+											<span>1 hr</span></td>
+										<td>
+											<span>$120</span></td>
+										<td>
+											<span>NA</span></td>
+										<td>
+											<span>RV/DHPP/6-mo. Bordetella</span></td>
+										<td>
+											<span>Customized Plan for you and your pup</span></td>
+									</tr>
+									<tr>
+										<td>
+											<span>One-on-One Behavior Modification</span></td>
+										<td>
+											<span><font size="2">A Dog's Life Quarters</font></span></td>
+										<td>
+											<span>Per Request</span></td>
+										<td>
+											<span>1 hr every wk for 4 wks</span></td>
+										<td>
+											<span>$250 for 1st Dog<br />
+											$200 for 2nd Dog</span></td>
+										<td>
+											<span>NA</span></td>
+										<td>
+											<span>RV/DHPP/6-mo. Bordetella&#65279;</span></td>
+										<td>
+											<span>Customized Plan for you and your pup</span></td>
+									</tr>
+									<tr>
+										<td>
+											<span>One-on-One Behavior Modification</span></td>
+										<td>
+											<span>In Home</span></td>
+										<td>
+											<span>Per Request</span></td>
+										<td>
+											<span>1 hr every wk for 4 wks</span></td>
+										<td>
+											<span>$300 for 1st Dog<br />
+											$250 for 2nd Dog</span></td>
+										<td>
+											<span>NA</span></td>
+										<td>
+											<span>RV/DHPP/6-mo. Bordetella&#65279;</span></td>
+										<td>
+											<span>Customized Plan for you and your pup</span></td>
+									</tr>
+									<tr>
+										<td>
+											<p>
+												<span>In-Kennel Training</span></p>
+										</td>
+										<td>
+											<span>><font size="2">A Dog's Life Quarters</font></span></td>
+										<td>
+											<span>Per Request</span></td>
+										<td>
+											<p>
+												3-20 min training sessions per day</p>
+											<p>
+												3&nbsp;one-on-one sessions with Owner after 2 wk stay</p>
+										</td>
+										<td>
+											<span>$2400</span></td>
+										<td>
+											<span>8 wks</span></td>
+										<td>
+											<span>RV/DHPP/6-mo. Bordetella&#65279;</span></td>
+										<td>
+											<span>For&nbsp;2 weeks your dog will stay at BYK and&nbsp;be&nbsp;trained, privately,&nbsp;3 times per day. Following the 2-week intensive training period, we come to your home, &amp;&nbsp;work with the&nbsp;entire family for an additional&nbsp;3 weeks, one session per week, to coach the owners on how commands are given,&nbsp;&nbsp; &amp; what we have been working on with your dog.</span></td>
+									</tr>
+								</tbody>
+							</table>
+
+        </tr>
+                  </table>
+						</td>
+	</table>
+   </div>
+    <br>
+    <br>
+    <br>
+  <div id="footer">
+    &copy; 2017 A Dog's Life - All Right Reserved
+  </div>
+</div>
+</div>
+</body>
+</html>
